@@ -1,3 +1,7 @@
+main {
+  padding-top: 2.5rem;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -16,6 +20,11 @@ body {
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
+}
+
+main {
+  min-height: calc(100vh - 3.5rem - 8rem);
+  margin-top: 3.5rem;
 }
 
 .main-header {
@@ -59,7 +68,7 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem;
+  height: 2.5rem;
   height: 1.5rem;
   /* width: 20px; */
   display: inline-block;
@@ -74,7 +83,7 @@ body {
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 122px);
+  width: calc(100% - 128px);
   vertical-align: middle;
 }
 
