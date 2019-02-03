@@ -25,11 +25,21 @@
   font-size: 1.6rem;
 }
 
+@media (min-width: 40rem) and (min-height: 40rem) {
+  #product-overview {
+    height: 40vh;
+    background-position: 50% 25%;
+  }
+
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+
 .section-title {
   color: #2ddf5c;
   text-align: center;
 }
-
 
 .plan {
   background: #d5ffdc;
@@ -78,7 +88,7 @@
   margin: 0.5rem 0;
 }
 
-@media(min-width: 40rem)  {
+@media (min-width: 40rem) {
   .plan__list {
     width: 100%;
     text-align: center;
@@ -138,7 +148,7 @@
     width: 30%;
     max-width: 25rem;
     vertical-align: top;
-  }  
+  }
 }
 
 /* h1 {
@@ -193,15 +203,3 @@
   background: #ff5454;
   border-color: #ff5454;
 }
-
-@media (min-width: 40rem) and (min-height: 40rem) {
-  #product-overview {
-    height: 40vh;
-    background-position: 50% 25%;
-  }
-
-  #product-overview h1 {
-    font-size: 3rem;
-  }
-}
-
